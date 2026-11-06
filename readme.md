@@ -1,4 +1,6 @@
-Pass.W0rd$ <- jjaja no me acuerdo de que es la contraseña 
+albmtz@gmail.com
+Pass.W0rd$ <- el pass del admin
+ 
 ip 192.168.146.131
 cd /var/www/html/proyecto_nuevo/server/
 source ./envs/paypal/bin/activate
