@@ -7,7 +7,7 @@ from wallet.models import Wallet
 from user.models import User
 from history.models import History
 
-stripe.api_key = ''
+stripe.api_key = 'sk_test_51Q3YBg09y9kf8XbPA8t0gXs6VxImX7AdIu6rVwtSUTHUyFXlCcpEtSYLJwmACahFz7cOj3SMorPQk2m9gKej4Reh00optEq1Cq'
 
 class RechargeView(APIView):
     permission_classes = [IsAuthenticated]
