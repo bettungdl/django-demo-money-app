@@ -10,7 +10,7 @@ from user.models import User
 from wallet.models import Wallet
 from django.shortcuts import get_object_or_404
 
-stripe.api_key = 'sk_test_51Q3YBg09y9kf8XbPA8t0gXs6VxImX7AdIu6rVwtSUTHUyFXlCcpEtSYLJwmACahFz7cOj3SMorPQk2m9gKej4Reh00optEq1Cq'
+stripe.api_key = ''
 
 class RegisterView(APIView):
     def post(self, request):
