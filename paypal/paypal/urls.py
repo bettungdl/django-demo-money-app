@@ -14,6 +14,9 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf import settings
+from django.conf.urls.statics import static
+
 from django.contrib import admin
 from django.urls import path, include
 from history.api.router import router_history
@@ -25,4 +28,4 @@ urlpatterns = [
     path('api/', include('user.api.router')),
     path('api/', include('wallet.api.router')),
     path('api/', include(router_history.urls))
-]
+] + static(settings.STATIC_ROOT, document_root=settings.STATIC_ROOT)
