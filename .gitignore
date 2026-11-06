@@ -1,0 +1,28 @@
+# Entornos virtuales
+envs/
+venv/
+ENV/
+env/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Base de datos local de desarrollo
+db.sqlite3
+
+# Archivos multimedia subidos por usuarios localmente (opcional, si guardas media en local)
+media/
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Variables de entorno secretas (¡NUNCA las subas a GitHub!)
+.env
+
+# Directorios de IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
